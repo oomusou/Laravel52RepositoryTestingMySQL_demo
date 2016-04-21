@@ -1,6 +1,7 @@
 <?php
 
 use App\Post;
+use App\Repositories\PostRepository;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class PostRepositoryTest extends TestCase
